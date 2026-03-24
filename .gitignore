@@ -1,0 +1,13 @@
+# Compiled Java Class files
+bin/
+
+# Environment configs (DO NOT TRACK API KEYS)
+config.properties
+
+# Application generated user data
+search_history.txt
+
+# Mac / IDE configuration
+.DS_Store
+.idea/
+*.iml
