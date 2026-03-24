@@ -13,9 +13,29 @@ This Weather Information App is an advanced, fully self-contained Java Swing gra
 
 ## ⚙️ Prerequisites
 Before downloading or attempting to compile the application, ensure your machine satisfies the following minimum requirements:
-- **Java Development Kit (JDK) 11 or higher** installed. (You can verify this by running `javac -version` in your terminal).
 - **Active Internet Connection** to connect dynamically to OpenWeatherMap's global Geocoding & Weather API endpoints.
 - **OpenWeatherMap API Key**. You must create a free developer account at [openweathermap.org](https://openweathermap.org/) to retrieve a 32-character API token.
+- **Java Development Kit (JDK) 11 or higher** installed natively.
+
+### Installing Java (JDK) locally:
+If you do not have Java installed (verify by running `javac -version`), install it using one of the automated OS commands below:
+
+**🍎 For MacOS (Using Homebrew)**:
+```bash
+brew install openjdk
+```
+
+**🐧 For Linux (Ubuntu / Debian)**:
+```bash
+sudo apt update
+sudo apt install default-jdk
+```
+
+**🪟 For Windows (Using Winget or Chocolatey)**:
+```cmd
+winget install Oracle.JDK.21
+```
+*(Or simply download the binary GUI installer directly from the official [Oracle Website](https://www.oracle.com/java/technologies/javase-downloads.html))*
 
 ## 🚀 Setup Instructions
 
