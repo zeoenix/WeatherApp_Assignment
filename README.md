@@ -15,6 +15,12 @@ This project was developed originally to satisfy the requirements of **CS 1103-0
 ---
 
 ## 🛠️ Technology Stack & Architecture
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="45" height="45" style="margin-right: 10px;" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="45" height="45" style="margin-right: 10px;" />
+</p>
+
 - **Language**: Core Java (JDK 11+)
 - **Graphical Interface**: Java Swing / AWT
 - **Network / HTTP Client**: Native `java.net.http.HttpClient`
@@ -134,4 +140,6 @@ run.bat
 3. **Unit Translation**: Press the designated top toggle button dynamically transforming active labels between metric Celsius / Fahrenheit and Mps / Mph instantly natively.
 4. **Exporting History Logs**: Press the `View History` constraint button to deploy a scrollable log tracking every historical search mapped locally on the physical disk.
 
-*(Take standard OS screenshots natively of these exact interface states and deploy them cleanly inside your assignment PDF constraints!)*
+---
+
+*Let see you in future implementations!* 🚀
