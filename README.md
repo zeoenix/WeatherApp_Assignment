@@ -11,6 +11,12 @@ This Weather Information App is an advanced, fully self-contained Java Swing gra
 - **Search History Tracking**: Employs an I/O `HistoryManager` that automatically logs historic geographic look-ups paired with formatting timestamp trackers seamlessly appended to a persistent local text file. 
 - **Weather Icons**: Effortlessly parses and injects image URLs concurrently from `openweathermap.org` on secondary multithreaded GUI channels using `SwingWorker` allowing icons to natively populate the UI without halting frame paints.
 
+## ⚙️ Prerequisites
+Before downloading or attempting to compile the application, ensure your machine satisfies the following minimum requirements:
+- **Java Development Kit (JDK) 11 or higher** installed. (You can verify this by running `javac -version` in your terminal).
+- **Active Internet Connection** to connect dynamically to OpenWeatherMap's global Geocoding & Weather API endpoints.
+- **OpenWeatherMap API Key**. You must create a free developer account at [openweathermap.org](https://openweathermap.org/) to retrieve a 32-character API token.
+
 ## 🚀 Setup Instructions
 
 ### 1. Configure your API Key
